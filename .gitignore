@@ -1,0 +1,5 @@
+public/build/
+publicnode_modules/
+public/test/integration/screenshots-current/
+public/_site/
+.DS_Store

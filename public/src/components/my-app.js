@@ -54,13 +54,13 @@ class MyApp extends connect(store)(LitElement) {
           --app-drawer-width: 256px;
 
           --app-primary-color: #E91E63;
-          --app-secondary-color: #293237;
+          --app-secondary-color: #000000;
           --app-dark-text-color: var(--app-secondary-color);
           --app-light-text-color: white;
           --app-section-even-color: #f7f7f7;
-          --app-section-odd-color: white;
+          --app-section-odd-color: black;
 
-          --app-header-background-color: white;
+          --app-header-background-color: #303030;
           --app-header-text-color: var(--app-dark-text-color);
           --app-header-selected-color: var(--app-primary-color);
 
@@ -144,11 +144,13 @@ class MyApp extends connect(store)(LitElement) {
         /* Workaround for IE11 displaying <main> as inline */
         main {
           display: block;
+          background:red;
         }
 
         .main-content {
           padding-top: 64px;
           min-height: 100vh;
+          background:#000;
         }
 
         .page {

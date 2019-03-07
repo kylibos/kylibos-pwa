@@ -24,7 +24,7 @@ class MyView1 extends PageViewElement {
   render() {
     return html`
       <section>
-        <p style="text-align:center;">.: custom software developers :.</p>
+        <p style="text-align:center; color:#303030;">.: custom software developers :.</p>
       </section>
     `;
   }

@@ -202,23 +202,15 @@ class MyApp extends connect(store)(LitElement) {
         </app-toolbar>
 
         <!-- This gets hidden on a small screen-->
-        <nav class="toolbar-list">
-          <a ?selected="${this._page === 'view1'}" href="/view1">View One</a>
-          <a ?selected="${this._page === 'view2'}" href="/view2">View Two</a>
-          <a ?selected="${this._page === 'view3'}" href="/view3">View Three</a>
-        </nav>
+        
+
+        
       </app-header>
 
       <!-- Drawer content -->
-      <app-drawer
-          .opened="${this._drawerOpened}"
-          @opened-changed="${this._drawerOpenedChanged}">
-        <nav class="drawer-list">
-          <a ?selected="${this._page === 'view1'}" href="/view1">View One</a>
-          <a ?selected="${this._page === 'view2'}" href="/view2">View Two</a>
-          <a ?selected="${this._page === 'view3'}" href="/view3">View Three</a>
-        </nav>
-      </app-drawer>
+      
+
+
 
       <!-- Main content -->
       <main role="main" class="main-content">
